@@ -7,11 +7,11 @@
 
 A = int(input())
 B = int(input())
-C = int(input())
+
 D = A
 A = B
 B = D
+C = int(input())
 A = C*A
 B = B+C
-print(A)
-print(B)
+print(A,B)
