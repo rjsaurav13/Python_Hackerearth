@@ -4,14 +4,14 @@
 
 @author: saurav
 """
-
-A = int(input())
-B = int(input())
-
+A,B,C=input().split("")
+NA = int(A)
+B = int(B)
+C = int(C)
 D = A
 A = B
 B = D
-C = int(input())
+
 A = C*A
 B = B+C
 print(A,B)
