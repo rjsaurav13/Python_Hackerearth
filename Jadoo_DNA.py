@@ -17,5 +17,5 @@ while i<num:
     elif ch[i] =="T" and num==1:
         print('A', end = '')
     elif ch[i] =="A" and num==1:
-        print('U', end = '')   
+        print('U', end = ' ')   
     i+=1
