@@ -4,7 +4,7 @@
 
 @author: saurav
 """
-A,B,C=input().split("")
+A,B,C=map(int,input().split())
 NA = int(A)
 B = int(B)
 C = int(C)
