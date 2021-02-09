@@ -1,21 +1,15 @@
-i=0
-temp = 0
 ch = input()
-num = len(ch)
-if ch[i] != "G" and ch[i] !="C" and ch[i] !="T" and ch[i] !="A":
-    print("Invalid Input")
-    temp = 1
-    quit()
-    
-else:       
-    while i<num:
-        
-        if ch[i] == "G" and temp == 0:
-            print('C', end = '')
-        elif ch[i] =="C" and temp == 0:
-            print('G', end = '')
-        elif ch[i] =="T" and temp == 0:
-            print('A', end = '')
-        elif ch[i] =="A" and temp == 0:
-            print('U', end = '')  
-        i+=1
+for j in ch:
+    if j != "G" and j != "C" and j != "T" and j != "A":
+        print("Invalid Input")  
+        exit()
+for i in ch:
+    if i == "G": 
+        print("C", end = '')
+    elif i =="C": 
+        print("G", end = '')
+    elif i=="T": 
+        print("A", end = '')
+    else: 
+        print("U", end = '')  
+  
